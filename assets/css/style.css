@@ -1,0 +1,132 @@
+
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	background: #e3e3e3
+}
+
+h2, h3 {
+	padding-bottom: 20px;
+	border-bottom: solid 2px #d3d3d3;
+	color: #4aaaa5;
+}
+
+h1, h2, h3, h4 {
+font-family: 'Georgia', Times, Times New Roman, serif;
+font-weight: bold;
+}
+
+
+.navbar {
+	border-bottom: solid 3px grey;
+}
+
+.navbar-nav {
+	text-align: center;
+}
+
+.navbar-brand {
+	height: 90px;
+}
+
+
+#logo {
+	
+	min-width: 100%;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 0px 30px;
+	text-align: center;
+}
+
+.main {
+	margin: 30px auto;
+}
+
+.bio-image {
+	max-width:300px;
+	margin: 10px auto;
+}
+
+.main-bio {
+	padding: 30px;
+	border: solid 1px grey;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	background: #fff;
+	overflow: auto;
+
+}
+
+.sidebar {
+	padding: 30px;
+	border: solid 1px grey; 
+	background: #fff;
+}
+
+
+.icons {
+	max-width: 60px;
+	margin: 5px;
+}
+
+.footer {
+	
+	height: 100px;
+	width: 100%;
+	background: grey;
+	border-top: solid 5px  #4aaaa5;
+	color: #e3e3e3;
+	text-align: center;
+	line-height: 70px;
+}
+
+.submit-button {
+	background: #4aaaa5;
+	color:white;
+}
+.container1 {
+	position: relative;
+	margin: 10px 30px 30px 0px;
+	border: solid 1px;
+	border-color: #d3d3d3;
+}
+
+.project1 {
+	width: 100%;
+	height: 25%;
+	font-size: auto;
+	background: #4aaaa5;
+	position: absolute;
+	bottom: 10px;
+	color: white;
+	text-align: center;
+	
+}
+
+.portfolio-placeholder {
+	width:100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
+  margin: 0 auto -100px;
+}
+
+footer,
+.push {
+  height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+	.navbar-collapse {
+		display: inline-block!important;
+	}
+}
