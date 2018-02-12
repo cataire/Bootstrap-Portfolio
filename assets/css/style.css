@@ -11,9 +11,14 @@ h2, h3 {
 	color: #4aaaa5;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, .project-name {
 font-family: 'Georgia', Times, Times New Roman, serif;
 font-weight: bold;
+}
+
+.project-name {
+	font-size: 20px;
+	color: #4aaaa5;
 }
 
 
@@ -26,7 +31,7 @@ font-weight: bold;
 }
 
 .navbar-brand {
-	height: 70px;
+	height: 80px;
 }
 
 
@@ -55,7 +60,6 @@ font-weight: bold;
 	margin-bottom: 30px;
 	background: #fff;
 	overflow: auto;
-	line-height: 2;
 
 }
 
@@ -63,6 +67,7 @@ font-weight: bold;
 	padding: 30px;
 	border: solid 1px grey; 
 	background: #fff;
+	float: right;
 }
 
 
@@ -115,7 +120,7 @@ body {
 }
 
 .wrapper {
-  height: auto!important;
+  height: auto !important;
   height: 100%;
   min-height: 100%;
   margin: 0 auto -100px;
